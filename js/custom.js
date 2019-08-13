@@ -58,4 +58,9 @@ $(document).ready(function() {
       return false;
     }
   });
+
+  $(document).on('click', '.user_list li', function(){
+    $('.user_list li').removeClass('active');
+    $(this).addClass('active');
+  })
 })

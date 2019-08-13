@@ -24,21 +24,9 @@
 </head>
 
 <body>
-  <!-- <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-    <a class="navbar-brand" href="#">hello world</a>
-    <div class="navbar-collapse">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active"><a class="nav-link" href="#">home</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">about</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">contact</a></li>
-      </ul>
-    </div>
-  </nav> -->
 
   <nav class="navbar navbar-dark bg-dark navbar-expand-sm">
     <a class="navbar-brand" href="#">
-      <!-- <img src="https://s3.eu-central-1.amazonaws.com/bootstrapbaymisc/blog/24_days_bootstrap/logo_white.png" width="30" height="30" alt="logo">
-      BootstrapBay -->
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-list-2" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -93,11 +81,11 @@
         </div>
         <div id="search">
           <label for=""><i class="fa fa-search" aria-hidden="true"></i></label>
-          <input type="text" placeholder="Search contacts..." />
+          <input type="text" placeholder="Search contacts..." style="width : 100%;"/>
         </div>
         <div id="contacts">
-          <ul>
-            <li class="contact">
+          <ul class="user_list">
+            <li class="contact" data-value='maria'>
               <div class="wrap">
                 <span class="contact-status online"></span>
                 <img src="http://emilcarlsson.se/assets/louislitt.png" alt="" />
@@ -107,7 +95,7 @@
                 </div>
               </div>
             </li>
-            <li class="contact active">
+            <li class="contact active" data-value='davec'>
               <div class="wrap">
                 <span class="contact-status busy"></span>
                 <img src="http://emilcarlsson.se/assets/harveyspecter.png" alt="" />
@@ -119,7 +107,7 @@
                 </div>
               </div>
             </li>
-            <li class="contact">
+            <li class="contact" data-value='louis'>
               <div class="wrap">
                 <span class="contact-status away"></span>
                 <img src="http://emilcarlsson.se/assets/rachelzane.png" alt="" />
@@ -129,7 +117,7 @@
                 </div>
               </div>
             </li>
-            <li class="contact">
+            <li class="contact" data-value='johnm'>
               <div class="wrap">
                 <span class="contact-status online"></span>
                 <img src="http://emilcarlsson.se/assets/donnapaulsen.png" alt="" />
@@ -139,66 +127,27 @@
                 </div>
               </div>
             </li>
-            <li class="contact">
+            <li class="contact" data-value='iliza'>
               <div class="wrap">
-                <span class="contact-status busy"></span>
-                <img src="http://emilcarlsson.se/assets/jessicapearson.png" alt="" />
+                <span class="contact-status online"></span>
+                <img src="http://emilcarlsson.se/assets/donnapaulsen.png" alt="" />
                 <div class="meta">
-                  <p class="name">Jessica Pearson</p>
-                  <p class="preview">Have you finished the draft on the Hinsenburg deal?</p>
+                  <p class="name">Donna Paulsen</p>
+                  <p class="preview">Mike, I know everything! I'm Donna..</p>
                 </div>
               </div>
             </li>
-            <li class="contact">
+            <li class="contact" data-value='bible'>
               <div class="wrap">
-                <span class="contact-status"></span>
-                <img src="http://emilcarlsson.se/assets/haroldgunderson.png" alt="" />
+                <span class="contact-status online"></span>
+                <img src="http://emilcarlsson.se/assets/donnapaulsen.png" alt="" />
                 <div class="meta">
-                  <p class="name">Harold Gunderson</p>
-                  <p class="preview">Thanks Mike! :)</p>
+                  <p class="name">Donna Paulsen</p>
+                  <p class="preview">Mike, I know everything! I'm Donna..</p>
                 </div>
               </div>
             </li>
-            <li class="contact">
-              <div class="wrap">
-                <span class="contact-status"></span>
-                <img src="http://emilcarlsson.se/assets/danielhardman.png" alt="" />
-                <div class="meta">
-                  <p class="name">Daniel Hardman</p>
-                  <p class="preview">We'll meet again, Mike. Tell Jessica I said 'Hi'.</p>
-                </div>
-              </div>
-            </li>
-            <li class="contact">
-              <div class="wrap">
-                <span class="contact-status busy"></span>
-                <img src="http://emilcarlsson.se/assets/katrinabennett.png" alt="" />
-                <div class="meta">
-                  <p class="name">Katrina Bennett</p>
-                  <p class="preview">I've sent you the files for the Garrett trial.</p>
-                </div>
-              </div>
-            </li>
-            <li class="contact">
-              <div class="wrap">
-                <span class="contact-status"></span>
-                <img src="http://emilcarlsson.se/assets/charlesforstman.png" alt="" />
-                <div class="meta">
-                  <p class="name">Charles Forstman</p>
-                  <p class="preview">Mike, this isn't over.</p>
-                </div>
-              </div>
-            </li>
-            <li class="contact">
-              <div class="wrap">
-                <span class="contact-status"></span>
-                <img src="http://emilcarlsson.se/assets/jonathansidwell.png" alt="" />
-                <div class="meta">
-                  <p class="name">Jonathan Sidwell</p>
-                  <p class="preview"><span>You:</span> That's bullshit. This deal is solid.</p>
-                </div>
-              </div>
-            </li>
+
           </ul>
         </div>
         <div id="bottom-bar">
